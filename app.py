@@ -114,7 +114,9 @@ def basketball_stats():
                         print("That's not a valid input.  Please enter the number corresponding with your choice to select.")
                 else:
                     break
-            print("\n====Thank you for using the Basketball Statistics Tool!====\n")
+            else:
+                break
+        print("\n====Thank you for using the Basketball Statistics Tool!====\n")
             
 
 if __name__ == '__main__':
